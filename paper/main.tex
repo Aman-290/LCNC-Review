@@ -22,19 +22,21 @@
 
 \author{
 \IEEEauthorblockN{Aman J Sonal, Deepak Naik, Chithra K}
-\emph{School of Computer Engineering}\\
-\emph{Manipal Institute of Technology}\\
+\IEEEauthorblockA{
+School of Computer Engineering\\
+Manipal Institute of Technology, Manipal Academy of Higher Education\\
 Manipal, India\\
-\texttt{aman7.mitmpl2024@learner.manipal.edu}\\
-\texttt{deepak.mitmpl2024@learner.manipal.edu}\\
-\texttt{k.chithra@manipal.edu}\\
+\texttt{aman7.mitmpl2024@learner.manipal.edu},
+\texttt{deepak.mitmpl2024@learner.manipal.edu},
+\texttt{k.chithra@manipal.edu}
+}
 }
 
 
 \maketitle
 
 \begin{abstract}
-Low-code and no-code (LCNC) platforms have moved from peripheral rapid-application tools to a visible part of contemporary software engineering, especially as visual modelling, citizen development, and generative AI begin to converge. This paper presents a PRISMA-informed review of LCNC research with emphasis on benefits, challenges, and future directions. The review was constructed from a 170-record evidence corpus assembled from author-supplied candidate papers and supplementary academic web searching, then screened to a final set of 50 included studies. Data extraction covered study metadata, method, platform or domain context, quality appraisal, evidence quotes, thematic codes, and synthesis notes. The strongest recurring themes were platform comparison and AI automation, while education, enterprise adoption, usability, integration, model-driven roots, and citizen development formed the next layer of evidence. Reported benefits include rapid prototyping, broader participation in software development, business-IT collaboration, education, and AI-assisted workflow generation. However, the same evidence base shows recurring concerns about governance, shadow IT, security and privacy, scalability, maintainability, platform lock-in, integration, testing, and the unclear boundary between citizen and professional development. Because database-native hit logs, formal inter-rater reliability statistics, and a professional similarity report were not available for this version, the paper reports these as limitations and provides supplementary extraction artifacts for transparency. We conclude with a research agenda that prioritizes governance frameworks, security-by-design, maintainability benchmarks, interoperability, standardized evaluation metrics, and responsible human-AI collaboration.
+Low-code and no-code (LCNC) platforms have moved from peripheral rapid-application tools to a visible part of contemporary software engineering, especially as visual modelling, citizen development, and generative AI begin to converge. This paper presents a PRISMA-informed review of LCNC research with emphasis on benefits, challenges, and future directions. The review was constructed from a 170-record evidence corpus assembled from author-supplied candidate papers and supplementary academic web searching, then screened to a final set of 50 included studies. Data extraction covered study metadata, method, platform or domain context, quality appraisal, evidence quotes, thematic codes, and synthesis notes. The strongest recurring themes were platform comparison and AI automation, while education, enterprise adoption, usability, integration, model-driven roots, and citizen development formed the next layer of evidence. Reported benefits include rapid prototyping, broader participation in software development, business-IT collaboration, education, and AI-assisted workflow generation. However, the same evidence base shows recurring concerns about governance, shadow IT, security and privacy, scalability, maintainability, platform lock-in, integration, testing, and the unclear boundary between citizen and professional development. To support auditability, the review links its synthesis to public extraction artifacts and a claim-to-evidence map. We conclude with a research agenda that prioritizes governance frameworks, security-by-design, maintainability benchmarks, interoperability, standardized evaluation metrics, and responsible human-AI collaboration.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -63,10 +65,10 @@ Table~\ref{tab:related} positions this work against closely related reviews. The
 \toprule
 Review & Primary scope & Evidence emphasis & Difference from this paper \\
 \midrule
-Ajimati et al. \cite{p18} & Adoption of low-code/no-code development. & Adoption patterns and future research agenda. & This paper adds a newer AI-era corpus, LLM-supported LCNC systems, agentic no-code tools, and a separate quality-appraisal summary. \\
-Liwanag et al. \cite{p11} & LCNC development in the era of artificial intelligence. & Intersection of LCNC and AI. & This paper combines AI automation with enterprise governance, citizen development, platform comparison, quality issues, and extraction artifacts from a 50-paper corpus. \\
-Rokis and Kirikova \cite{p29} & Broad low-code development literature. & Conceptual and platform-oriented literature review. & This paper focuses on recent 2024--2026 evidence and explicitly maps benefits, challenges, methods, themes, and future directions. \\
-Trieflinger et al. \cite{p15} & Potentials and risks of low-code development. & Benefits and risk profile from an SLR. & This paper adds recent LLM/no-code automation papers and separates high-impact but thinly evidenced risk areas such as security and privacy. \\
+Ajimati et al. \cite{p18} & Adoption of low-code/no-code development. & Adoption patterns and future research agenda. & Adds recent AI-era systems and quality appraisal. \\
+Liwanag et al. \cite{p11} & LCNC development in the era of artificial intelligence. & Intersection of LCNC and AI. & Adds governance, quality, and extraction evidence. \\
+Rokis and Kirikova \cite{p29} & Broad low-code development literature. & Conceptual and platform-oriented literature review. & Adds recent 2024--2026 synthesis and theme mapping. \\
+Trieflinger et al. \cite{p15} & Potentials and risks of low-code development. & Benefits and risk profile from an SLR. & Adds LLM-era evidence and explicit risk-gap framing. \\
 \bottomrule
 \end{tabularx}
 \end{table*}
@@ -96,7 +98,7 @@ The review addresses five research questions:
 
 \section{Methodology}
 \subsection{Review Design}
-The review followed a PRISMA-informed systematic mapping workflow rather than a fully registered PRISMA 2020 protocol. This distinction is important. The corpus was constructed systematically and documented in project spreadsheets, per-paper JSON files, and extraction workbooks, but the protocol was not preregistered and database-native export logs were not preserved for every search source. The method is therefore described as a transparent review workflow with PRISMA-style reporting, not as a fully reproducible registered PRISMA review. To reduce ambiguity, the repository now contains the completed extraction workbook, PDF manifests, per-paper JSON outputs, a search/reproducibility log, per-paper quality appraisal CSV, evidence quote CSV, theme matrix CSV, and a working PRISMA checklist table.
+The review followed a PRISMA-informed review workflow rather than a fully registered PRISMA 2020 protocol. This distinction is important. The corpus was constructed systematically and documented in project spreadsheets, per-paper JSON files, and extraction workbooks, but the protocol was not preregistered and database-native export logs were not preserved for every search source. The method is therefore described throughout as a PRISMA-informed review, not as a fully reproducible registered PRISMA review. To reduce ambiguity, the repository now contains the completed extraction workbook, PDF manifests, per-paper JSON outputs, a search/reproducibility log, per-paper quality appraisal CSV, evidence quote CSV, theme matrix CSV, and a working PRISMA checklist table.
 
 \subsection{Search Strategy and Sources}
 The starting corpus consisted of author-supplied candidate-paper spreadsheets and a previously curated shortlist. A supplementary search was conducted on 12 June 2026 across publisher pages, open repositories, and academic indexing surfaces, including arXiv, ACM and ACL Digital Library, SpringerLink, IEEE Xplore, MDPI, Wiley, AIS eLibrary, Google Scholar, and institutional repositories. 
@@ -136,7 +138,7 @@ Fig.~\ref{fig:prisma} summarizes the screening flow. The corpus contained 170 re
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.82\textwidth]{figures/fig1_prisma_flow.png}
-\caption{PRISMA-style screening flow from 170 candidate records to 50 included studies.}
+\caption{PRISMA-informed screening flow from 170 candidate records to 50 included studies.}
 \label{fig:prisma}
 \end{figure*}
 

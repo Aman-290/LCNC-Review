@@ -24,6 +24,10 @@ This revision addresses the supplied peer-review issues as far as the available 
 - Replaced TikZ figure blocks with external PNG figures for easier Overleaf submission.
 - Normalized the bibliography to 50 clean citation keys (`p01` through `p50`) with clickable `\url{}` links.
 - Fixed author spelling to `Deepak Naik`.
+- Fixed the IEEEtran conference author block using `\IEEEauthorblockN` and `\IEEEauthorblockA`.
+- Removed detailed missing-log and similarity-report limitations from the abstract and kept them in the methodology/threats sections.
+- Standardized the method label to `PRISMA-informed review`.
+- Verified that the manuscript continues past `AI, Generative AI, and the Future of LCNC` through Discussion, Future Directions, Threats to Validity, Conclusion, Data Availability, References, and `\end{document}`.
 
 ## Supplementary Files Generated
 
