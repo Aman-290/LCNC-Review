@@ -1,0 +1,8 @@
+﻿Item,Status,Artifact
+Review design,PRISMA-informed systematic mapping/review workflow; not preregistered.,Manuscript Methodology; README.md; EXTRACTION_REPORT.md
+Search date,12 June 2026 recorded in project artifacts.,EXTRACTION_REPORT.md; lcnc_expanded_170_and_final_top_50.xlsx
+Corpus counts,125 author-supplied + 45 supplementary = 170 records; 9 flagged before screening; 161 screened; 50 included; 111 excluded after screening; 120 not included overall.,paper_outputs/paper_data_summary.json; manuscript PRISMA figure
+Search strings,Base search strings documented; database-native hit counts and export timestamps were not preserved for every source.,Manuscript Search Strategy; repository evidence package
+Quality appraisal,12-item 0-2 rubric exported per paper.,per_paper_quality_appraisal.csv
+Evidence traceability,200 evidence quote rows exported for claim checking.,evidence_quotes_for_claim_checking.csv
+Similarity check,Not performed in this environment; must be completed with Turnitin/iThenticate before submission.,Manuscript Threats to Validity

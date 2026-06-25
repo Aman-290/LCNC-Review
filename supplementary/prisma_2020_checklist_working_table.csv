@@ -1,0 +1,12 @@
+﻿PRISMA_Item,Manuscript_Status
+Title,Identifies the work as a review but uses PRISMA-informed wording.
+Protocol and registration,Not preregistered; disclosed as a limitation.
+Information sources,Sources listed; exact database-native hit logs incomplete.
+Search strategy,Base Boolean strings documented; full platform-specific logs unavailable.
+Selection process,Counts corrected and screening flow documented.
+Data collection process,Workbook and JSON extraction process documented.
+Data items,Extraction fields and supplements documented.
+Risk of bias,Quality appraisal rubric and per-paper CSV provided.
+Synthesis methods,Theme coding and claim-to-evidence map provided.
+Study selection,170-to-50 flow provided.
+Certainty assessment,Quality ratings used cautiously; limitations stated.
