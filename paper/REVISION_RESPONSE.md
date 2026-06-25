@@ -28,6 +28,11 @@ This revision addresses the supplied peer-review issues as far as the available 
 - Removed detailed missing-log and similarity-report limitations from the abstract and kept them in the methodology/threats sections.
 - Standardized the method label to `PRISMA-informed review`.
 - Verified that the manuscript continues past `AI, Generative AI, and the Future of LCNC` through Discussion, Future Directions, Threats to Validity, Conclusion, Data Availability, References, and `\end{document}`.
+- Added a database-specific supplementary search protocol table covering IEEE Xplore, ACM Digital Library, SpringerLink, ScienceDirect/Elsevier, arXiv, Google Scholar, and MDPI/Wiley/AIS eLibrary.
+- Rephrased the starting corpus as an initial seed set expanded through systematic supplementary searching, with seed-selection bias stated as a validity threat.
+- Added explicit quality-appraisal thresholds: 20--24 Strong, 15--19 Moderate, below 15 Weak.
+- Added a justification for the 12 criteria, equal weighting, and 0--2 scoring scale.
+- Added `database_specific_search_protocol.csv` to the supplementary files.
 
 ## Supplementary Files Generated
 
